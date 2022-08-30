@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,UAAU;EACtB,uBAAuB,EAAE,SAAS;EAClC,sBAAsB,EAAE,WAAW;EACnC,WAAW,EAAE,iJAAiJ;CACjK",
+    "sources": [
+        "styles.scss",
+        "../components/Home/_home.scss",
+        "../components/Card/_cards.scss",
+        "../components/Footer/_footer.scss",
+        "../components/Header/_header.scss",
+        "../components/NewsLetter/_newsLetter.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
