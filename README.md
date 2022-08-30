@@ -1,3 +1,3 @@
 ### `Getting Started`
-    `npm install`
-    `npm start`
+`npm install`<br>
+`npm start`
