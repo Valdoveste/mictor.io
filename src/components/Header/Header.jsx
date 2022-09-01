@@ -1,15 +1,15 @@
 import React from "react";
 
 
-window.addEventListener("scroll", (e) => {
-    var header = document.getElementById("header__navbar");
+// window.addEventListener("scroll", (e) => {
+//     var header = document.getElementById("header__navbar");
 
-    if (window.scrollY > (header.scrollHeight))
-        header.classList.add("--fixed");
+//     if (window.scrollY > (header.scrollHeight))
+//         header.classList.add("--fixed");
         
-    if (window.scrollY === 0)
-        header.classList.remove("--fixed");
-})
+//     if (window.scrollY === 0)
+//         header.classList.remove("--fixed");
+// })
 
 class Header extends React.Component {
     render() {
