@@ -1,0 +1,33 @@
+#footer {
+    // padding: 2rem 2rem 0 2rem;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.500);
+    // border-top: 1px solid rgba(0, 0, 0, 0.500);
+
+    .panda {
+        padding: 1.5rem 0;
+        @include flexCenter(center, space-evenly, row);
+    }
+
+    .footer__copyrights {
+        padding: 0.5rem 0;
+        background-color: #000;
+
+        span {
+            width: 100%;
+            @include flexCenter(center, space-evenly, row);
+
+            p,
+            a {
+                color: #fff;
+            }
+
+            a {
+                font-weight: bold;
+
+                svg {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+}
