@@ -12,6 +12,10 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+.home{
+    margin: 50rem 0;
+}
+
 @mixin flexCenter($align_items, $justify_content, $flex_direction) {
     display: flex;
     align-items: $align_items;
@@ -19,8 +23,8 @@
     flex-direction: $flex_direction;
 }
 
-@import '../components/Home/home';
-@import '../components/Card/cards';
-@import '../components/Footer/footer';
-@import '../components/Header/header';
-@import '../components/NewsLetter/newsLetter';
+@import '../components/Home/_home';
+@import '../components/Card/_cards';
+@import '../components/Footer/_footer';
+@import '../components/Header/_header';
+@import '../components/NewsLetter/_newsLetter';

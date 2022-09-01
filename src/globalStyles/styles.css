@@ -12,4 +12,77 @@
   -webkit-font-smoothing: antialiased;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+.home {
+  margin: 50rem 0;
+}
+
+#header__navbar {
+  height: 75px;
+  padding: 0 2rem;
+  font-size: 1.25rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+#header__navbar .header__navbar__list:nth-child(even) {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#header__navbar .header__navbar__list .header__navbar__item {
+  height: 100%;
+}
+
+#header__navbar .header__navbar__list .header__navbar__item .header__navbar__link {
+  height: 100%;
+  padding: 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#header__navbar .header__navbar__list .header__navbar__item .header__navbar__link:hover:not(.header__navbar__brand) {
+  background-color: red;
+}
+
+#header__navbar .header__navbar__list .header__navbar__item .header__navbar__link::after {
+  content: "\2304";
+}
 /*# sourceMappingURL=styles.css.map */
